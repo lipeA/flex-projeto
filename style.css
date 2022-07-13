@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-menu{
+    width: 100%;
+    background-color: #122a57;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 35px;
+
+}
+
+.logo{
+    width: 50%;
+    color: white;
+}
+.lista-itens{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.lista-itens a{
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    cursor: pointer;
+}
+.lista-itens a:hover{
+    color: rgb(223, 219, 219);
+}
+
+.container-saiba-mais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 95px;
+}
+.container-saiba-mais-info{
+    padding: 0 85px;
+}
+.container-saiba-mais-info h1{
+    color: #122a57;
+    font-size: 86px ;
+}
+.container-saiba-mais-info p{
+    margin-bottom: 15px;
+}
+.container-saiba-mais-info a{
+    text-decoration: none;
+    background-color: #122a57;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px 19px;
+    margin-top: 55px;
+    transition-duration: 5s;
+}
+.container-saiba-mais-info a:hover{
+    background-color: #123d8d;
+    color: rgb(223, 219, 219);
+}
+
+.container-quem-somos{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0 95px;
+
+}
+.container-quem-somos h2{
+    color: #122a57;
+    font-size: 46px;
+    margin-bottom: 10px;
+    display: flex;
+    border-left: 7px solid #122a57;
+    padding-left: 9px;
+
+}
+.container-quem-somos p{
+    margin-bottom: 19px;
+}
+
+.container-servicos{
+    background-color: #122a57;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.container-servicos-titulo{
+    margin: 0px 190px;
+    height: 130px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    
+}
+.container-servicos-info{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    padding: 0px 100px;
+}
+.container-servicos-info p{
+    margin: 12px 0;
+}
+.container-servicos-info a{
+    text-decoration: none;
+    color: #122a57;
+    margin-top: 19px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 5px 15px;
+}
+.container-servicos-info-01{
+    width: 33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-servicos-info-02{
+    width: 33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-servicos-info-03{
+    width: 33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container-planos{
+    display: flex;
+    flex-direction: column;
+    height: 77vh;
+
+}
+.container-planos-titulo{
+    height: 5vh;
+    padding-left: 18%;
+    padding-top: 5% ;
+}
+.container-planos-titulo h2{
+    font-size: 40px;
+}
+.container-planos-info{
+    display: flex;
+    padding: 45px 0;
+    justify-content:center;
+    align-items: flex-end;
+    height: 70%;
+
+}
+.container-planos-info-plano1{
+    border: 3px solid #122a57;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5% ;  
+    padding: 5px 33px;
+    height: 30vh;
+}
+.container-planos-info-plano1 h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid #122a57;
+}
+.container-planos-info-plano1 ul li{
+    margin: 9px 5px ;
+}
+.container-planos-info-plano1 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 19px !important;
+    background-color: #122a57;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 5px 15px; 
+}
+
+
+
+.container-planos-info-plano2{
+    border: 3px solid #122a57;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-right: 5% ;  
+    padding: 9px 33px;
+    
+}
+.container-planos-info-plano2 h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid #122a57;
+}
+.container-planos-info-plano2 ul li{
+    margin: 9px 5px ;
+}
+.container-planos-info-plano2 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 19px !important;
+    background-color: #122a57;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 5px 15px; 
+}
+
+
+
+
+
+
+.container-planos-info-plano3{
+    border: 3px solid #122a57;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-right: 5% ;  
+    padding: 9px 33px;
+}
+.container-planos-info-plano3 h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid #122a57;
+}
+.container-planos-info-plano3 ul li{
+    margin: 9px 5px ;
+}
+.container-planos-info-plano3 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 19px !important;
+    background-color: #122a57;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 5px 15px; 
+}
+
+.rodape{
+    background-color: #122a57;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    
+    .container-menu{
+        min-width: 100%;
+        padding:0;
+        justify-content: center;
+    }
+    .lista-itens a{
+        margin: 8px;
+
+    }
+    .logo{
+        width: 45%;
+    }
+    
+    .container-saiba-mais{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10%;
+
+    }
+    .container-saiba-mais-info{
+        padding: 0;
+    }
+    .container-saiba-mais-img{
+        padding-top: 15px ;
+        display: flex;
+    }
+    .container-saiba-mais-img img{
+        margin-top: 9px;
+        width: 100%;
+    }
+
+
+
+
+
+}
